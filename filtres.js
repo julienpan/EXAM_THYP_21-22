@@ -23,8 +23,9 @@ function showSujets() {
 
 function showFiltreItems(item) {
   d3.select('#item').append('div').html(() => {
-    return 'Titre : ' + item['o:title'] + '<br>'
+    return '<div style="border:1px solid black">' + 'Titre : ' + item['o:title'] + '<br>'
           + 'Identifiant : ' + item['@id'] + '<br>'
-          + 'Media : ' + item['thumbnail_display_urls']['large'];
+          + 'Media : ' + item['thumbnail_display_urls']['large']
+          + '</div>';
   })
 }

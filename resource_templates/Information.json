@@ -1,0 +1,65 @@
+{
+    "o:label": "Information",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/EXAM_THYP_21-22\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "news",
+            "local_name": "hasSubject",
+            "label": "a comme sujet"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource",
+                    "label": "All"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/EXAM_THYP_21-22\/blob\/master\/vocab.ttl",
+            "vocabulary_label": "news",
+            "local_name": "hasImage",
+            "label": "a comme image descriptif"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/julienpan\/EXAM_THYP_21-22\/blob\/master\/vocab.ttl",
+        "vocabulary_label": "news",
+        "local_name": "Information",
+        "label": "Information"
+    }
+}

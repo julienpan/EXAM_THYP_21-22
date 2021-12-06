@@ -19,7 +19,7 @@ news:Document a rdfs:Class ;
 
 news:Information a rdfs:Class ;
     rdfs:label "Information" ;
-    rdfs:comment "sens information"
+    rdfs:comment "sens information" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -68,7 +68,7 @@ news:hasSubject a rdf:Property ;
     vs:term_status "experimental" .
 
 news:hasImage a rdf:Property ;
-    rdfs: label "a comme image descriptif" ;
+    rdfs:label "a comme image descriptif" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
